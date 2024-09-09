@@ -12,6 +12,7 @@ hide: true
         <td><a href="/weston_2025/MyJourney">My Journey</a></td>
         <td><a href="/weston_2025/Mario">Mario</a></td>
         <td><a href="/weston_2025/about">About</a></td>
+        <td><a href="/weston_2025/RunAway2D">Run Away Game</a></td>
     </tr>
 </table>
 
