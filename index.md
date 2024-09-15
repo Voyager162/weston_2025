@@ -3,7 +3,6 @@ layout: base
 title: Student Home 
 description: Home Page
 author: Weston Gardner
-image: /images/mario_animation.png
 hide: true
 ---
 
@@ -28,5 +27,13 @@ hide: true
       <button>Try Fractals</button>
     </a>
     <p>Here is a link to a wiki page that you can learn about fractals on. And another will bring you to a simulation of a fractal for you to play with</p>
+  </body>
+</html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/weston_2025/_sass/nighthawk/hacks.css">
+  </head>
+  <body>
+    <div class="rainbow">Rainbow</div>
   </body>
 </html>

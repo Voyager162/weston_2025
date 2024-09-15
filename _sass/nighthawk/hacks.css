@@ -1,0 +1,38 @@
+@keyframes rainbow {
+  0% {
+    background-color: red;
+  }
+  14% {
+    background-color: orange;
+  }
+  28% {
+    background-color: yellow;
+  }
+  42% {
+    background-color: green;
+  }
+  57% {
+    background-color: blue;
+  }
+  71% {
+    background-color: indigo;
+  }
+  85% {
+    background-color: violet;
+  }
+  100% {
+    background-color: red;
+  }
+}
+.rainbow {
+  width: 100px;
+  height: 100px;
+  display: inline-block; /* Ensure it behaves like a block */
+  animation: rainbow 5s linear infinite;
+  margin: auto;
+  text-align: center;
+  line-height: 100px; /* Vertically center the text */
+  color: white; /* Optional, for better text visibility */
+}
+
+/*# sourceMappingURL=hacks.css.map */
