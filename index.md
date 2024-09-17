@@ -34,6 +34,14 @@ hide: true
     <link rel="stylesheet" href="/weston_2025/_sass/nighthawk/hacks.css">
   </head>
   <body>
-    <div class="rainbow">Rainbow</div>
+    <table>
+      <tr>
+        <td><p>Games</p></td>
+        <td><a href="/weston_2025/javascriptCalculator">Regular Calculator</a></td>
+        <td><a href="/weston_2025/javascript/project/binary-calculator">Binary Calculator</a></td>
+        <td><a href="/weston_2025/clicker">Clicker Game</a></td>
+        <td><a href="/weston_2025/TickTackToe">Tick Tack Toe  </a></td>
+      </tr>
+    </table>
   </body>
 </html>
