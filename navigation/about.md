@@ -34,3 +34,13 @@ I also build and fly fpv drones as a hobbie. Throughout my expierences with that
 I also really enjoy reading, and this series, the Stormlight Archive, is my favorite.
 <div style= "height: 5px;"></div>
 <img alt = "books" src = "https://m.media-amazon.com/images/I/81XdTtLyFWL._AC_UF1000,1000_QL80_.jpg" width = "400" height = "400">
+
+<script src="https://utteranc.es/client.js"
+        repo="nighthawkcoders/portfolio_2025"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+-->

@@ -23,3 +23,5 @@ header_pages:
   - navigation/blog.md
   - navigation/search.md
   - README4YML.md
+  - navigation/about.md
+  - navigation/PeerReview.md
