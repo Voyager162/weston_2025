@@ -1,5 +1,28 @@
 //Default Overrides For Styles In Minima 
 // If you wish to override any of this CSS, do so in _sass/minima/custom-styles.css
+body.loading {
+  opacity: 0.5; /* Fade effect */
+  transition: opacity 0.5s ease; /* Smooth transition */
+}
+.loader {
+  border: 8px solid rgba(255, 255, 255, 0.3);
+  border-top: 8px solid #007bff; /* Change this to match your theme color */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999; /* Make sure it's above other elements */
+  display: none;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 
 .post img {
   display: block;

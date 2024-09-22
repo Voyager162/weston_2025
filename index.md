@@ -115,77 +115,17 @@ hide: true
         <a href="https://voyager162.github.io/RunAway">RunAwayGame</a>
       </div>
     </div>
+    <div class="loader"></div>
   </body>
-</html>
-
-
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Loading Spinner Example</title>
-  <style>
-    /* Overlay and loader styles */
-    .loader-overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.7);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 9999;
-    }
-    .loader {
-      border: 8px solid rgba(255, 255, 255, 0.3);
-      border-top: 8px solid #2b669a;
-      border-radius: 50%;
-      width: 100px;
-      height: 100px;
-      animation: spin 1s linear infinite, colorchange 3s ease-in-out infinite;
-    }
-    @keyframes spin {
-      0% {
-        transform: rotate(0deg);
-      }
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-    @keyframes colorchange {
-      0% {
-        border-top-color: #2b669a;
-      }
-      50% {
-        border-top-color: #ff6347;
-      }
-      100% {
-        border-top-color: #4caf50;
-      }
-    }
-    /* Page content that gets hidden initially */
-    #content {
-      display: none;
-    }
-  </style>
-</head>
-<body>
-<!-- Loading spinner overlay -->
-<div id="loading" class="loader-overlay">
-  <div class="loader"></div>
-</div>
-<!-- Page content (hidden until the page is loaded) -->
-<div id="content">
-  <h1>Welcome to the Page!</h1>
-  <p>This content will be shown after the loading spinner disappears.</p>
-</div>
-<script>
-  window.addEventListener("load", function() {
-    document.getElementById("loading").style.display = "none"; // Hide spinner once loaded
-    document.getElementById("content").style.display = "block"; // Show content
-  });
-</script>
-</body>
+  <script>
+ document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector('.loader').style.display = 'block';
+    document.body.classList.add('loading');
+    // Set a timeout for how long the loader should remain visible
+    setTimeout(function() {
+        document.body.classList.remove('loading');
+        document.querySelector('.loader').style.display = 'none';
+    }, 3000); // Change 3000 to the desired duration in milliseconds
+});
+  </script>
 </html>
